@@ -1,0 +1,468 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 620485 */
+  src: url('https://at.alicdn.com/t/font_620485_daa5b9atft95p14i.eot');
+  src: url('https://at.alicdn.com/t/font_620485_daa5b9atft95p14i.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_620485_daa5b9atft95p14i.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_620485_daa5b9atft95p14i.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_620485_daa5b9atft95p14i.svg#iconfont') format('svg');
+}
+.head{
+	width: 100%;
+	height: 0.96rem;
+	/*background: red;*/
+	padding: 0 0.26rem;
+}
+.head_left{
+	width: 2.09rem;
+	height: 0.96rem;
+	float: left;
+	/*background-color: yellow;*/
+	line-height: 0.96rem;
+}
+.head_left a{
+	display: block;
+	font-size: 0.4rem;
+	float: left;
+	color: #666;
+	font-family: 'iconfont';
+}
+.head_left p{
+	font-size: 0.3rem;
+	float: left;
+	color: #212121;
+	margin-left: 0.2rem;
+}
+.head_right{
+	width: 2.94rem;
+	height: 0.96rem;
+	/*background-color: pink;*/
+	float: left;
+	margin-left: 1.65rem;
+}
+.head_right a{
+	display: block;
+	font-size: 0.4rem;
+	color: #666;
+	margin-left: 0.56rem;
+	float: left;
+	font-family: 'iconfont';
+	line-height: 0.96rem;
+}
+.jieshao{
+	width: 100%;
+	height: 2.18rem;
+	/*background-color: green;*/
+	padding: 0 0.3rem;
+}
+.jieshao_t{
+	width: 6.6rem;
+	height: 1.39rem;
+	/*background-color: plum;*/
+}
+.jieshao_t_l{
+	width: 3.97rem;
+	height: 100%;
+	/*background-color: pink;*/
+	float: left;
+}
+.jieshao_t_l h1{
+	font-size: 0.4rem;
+}
+.jieshao_t_l_mid{
+	width: 4rem;
+	height: 0.26rem;
+	margin-top: 0.1rem;
+}
+.jieshao_t_l_mid img{
+	width: 1.14rem;
+	height: 0.18rem;
+	float: left;
+}
+.jieshao_t_l_mid p{
+	font-size: 0.22rem;
+	color: #666;
+	float: left;
+	margin-left: 0.16rem;
+	letter-spacing: 0.02rem;
+}
+.jieshao_t_l_bottom{
+	height: 0.4rem;
+}
+.jieshao_t_l_bottom img{
+	display: block;
+	width: 0.2rem;
+	height: 0.2rem;
+	float: left;
+}
+.jieshao_t_r{
+	width: 1.73rem;
+	height: 1.39rem;
+	float: left;
+	margin-left: 0.89rem;
+}
+.jieshao_t_r img{
+	display: block;
+	margin-top: 0.09rem;
+	width: 1.73rem;
+	height: 1.3rem;
+}
+.jieshao_b{
+	width: 6.6rem;
+	height: 0.338rem;
+	/*background-color: red;*/
+	margin-top: 0.43rem;
+}
+.dingwei{
+	font-family: 'iconfont'; 
+	font-size: 0.3rem;
+	float: left;
+	color: #999;
+}
+.title{
+	color: #333;
+	font-size: 0.26rem;
+	float: left;
+}
+.juli{
+	font-size: 0.26rem;
+	float: left;
+	color: #999;
+	margin-left: 0.24rem;
+}
+.call{
+	font-family: 'iconfont'; 
+	color: #333;
+	float: left;
+	font-size: .3rem;
+	margin-left: 0.65rem;
+}
+/*优惠/评论/商家信息开始*/
+.you_ping_shang{
+	width: 100%;
+	height: auto;
+	margin-top: 0.33rem;
+	/*background: red;*/
+}
+.yps_title{
+	width: 100%;
+	height: 0.89rem;
+	/*background: green;*/
+}
+.yps_title1{
+	color: #3BB4A4;
+	font-size: 0.36rem;
+	line-height: 0.89rem;
+	margin-left: 0.2rem;
+	margin-right: 0.2rem;
+	float: left;
+}
+/*.active{*/
+	/*background:#3BB4A4 ;*/
+	/*position: absolute;*/
+	/*width: 0.2rem;*/
+	/*height: 0.02rem;*/
+/*}*/
+.yps_title2{
+	color: #111;
+}
+.maidan{
+	width: 100%;
+	height: 1.71rem;
+	/*background: orange;*/
+}
+.maidan_content{
+	width: 6.87rem;
+	height: 1.71rem;
+	background: #fff;
+	margin: 0 auto;
+}
+.maidan_text{
+	font-size: 0.4rem;
+	font-weight: bold;
+	margin-top: 0.27rem;
+	float: left;
+	margin-left: 0.1rem;
+}
+.maidan_menu{
+	width: 0.98rem;
+	height: 0.54rem;
+	color: #fff;
+	background: orange;
+	border-radius: 2px;
+	font-size: 0.24rem;
+	line-height: 0.54rem;
+	text-align: center;
+	float: right;
+	margin-top: 0.27rem;
+	margin-right: 0.3rem;
+}
+.maidan_text2{
+	font-size: 0.2rem;
+	width: 100%;
+	float: left	;
+}
+.phone{
+	color: #333;
+	/*float: left;*/
+	margin-left: 0.1rem;
+	margin-top: 0.2rem;
+	float: left;
+}
+.have_buy{
+	color:#BABABA;
+	float: right;
+	margin-top: 0.27rem;
+	margin-right: 0.2rem;
+}
+.taocan{
+	/*background: green;*/
+	width: 100%;
+	height: 10rem;
+}
+.taocan_content{
+	width: 6.87rem;
+	height: 10rem;
+	/*background: pink;*/
+	margin: 0 auto;
+}
+.taocan_title{
+	width: 6.87rem;
+	height: 0.97rem;
+	/*background: orange;*/
+}
+.taocan_title span{
+	float: left;
+	font-size: 0.4rem;
+	color: #000;
+	margin-left: 0.1rem;
+	line-height: 0.97rem;
+	font-weight: bold;
+}
+.taocan_bottom{
+	width: 6.87rem;
+	height: 9rem;
+}
+.taocan_bottom1{
+	/*background: #fff;*/
+	width: 100%;
+	height: 2.1rem;
+}
+.taocan_bottom img{
+	width: 1.63rem;
+	height: 1.63rem;
+	margin-top: 0.22rem;
+	margin-left: 0.15rem;
+}
+.taocan_bottom_text{
+	width: 4.96rem;
+	height: 1.72rem;
+	/*background: deeppink;*/
+	float: right;
+	margin-top: 0.22rem;
+}
+.taocan_bottom_text1{
+	color: #111;
+	font-size: 0.36rem;
+	font-weight: 700;
+	float: left;
+}
+.taocan_bottom_text2{
+	width: 100%;
+	color: #bbb;
+	font-size: 0.24rem;
+	float: left;
+}
+.taocan_bottom_text3{
+	margin-top: 0.2rem;
+	float: left;
+}
+.tc_price{
+	color: #FF9307;
+	font-size: 0.36rem;
+	font-weight: 600;
+	float: left;
+}
+.tc_discount{
+	border: 1px solid orange;
+	width: 0.58rem;
+	height: 0.28rem;
+	line-height: 0.28rem;
+	text-align: center;
+	font-size: 0.12rem;
+	float: left;
+	margin-left: 0.15rem;
+	margin-top: 0.1rem;
+}
+.tc_havesaled{
+	color: #bbb;
+	font-size: 0.24rem;
+	float: left;
+	margin-left: 2rem;
+	margin-top: 0.05rem;
+}
+.taocan_more{
+	width: 100%;
+	height: 0.68rem;
+	/*background: red;*/
+	float: left;
+	font-size: 0.36rem;
+	color: #64AEA1;
+	line-height: 0.88rem;
+	text-align: center;
+}
+/*优惠/评论/商家信息结束*/
+/*推荐菜开始*/
+.recommend_male{
+	width: 100%;
+	height: 6.86rem;
+	float: left;
+	margin-top: 0.2rem;
+}
+.recommend_male_content{
+	width: 6.87rem;
+	height: 6.86rem;
+	margin: 0 auto;
+}
+.recommend_male_top{
+	width: 6.87rem;
+	height: 1.16rem;
+	/*background: pink;*/
+}
+.tuijiancai{
+	font-size: 0.4rem;
+	color: #111;
+	float: left;
+	line-height: 1.16rem;
+	font-weight: bold;
+	margin-left: 0.2rem;
+}
+.look_more{
+	font-size:0.24rem;
+	color:#43BAAB;
+	line-height: 1.16rem;
+	float: right;
+	margin-right: 0.2rem;
+	font-weight: 500;
+}
+.dazhong{
+	width: 100%;
+	height: 0.47rem;
+	/*background: pink;*/
+}
+.dazhong i{
+	font-family: iconfont;
+	font-size: 0.36rem;
+	line-height: 0.47rem;
+	margin-left: 0.2rem;
+	color: #D87445;
+	float: left;
+}
+.dazhong span{
+	font-size: 0.36rem;
+	color: #333;
+	font-weight: 700;
+	float: left;
+	margin-left: 0.15rem;
+}
+.recommend_goods{
+	/*background: pink;*/
+	float: left;
+	width: 6.87rem;
+	height: 4.29rem;
+	margin-top: 0.2rem;
+}
+.recommend_goods_top{
+	width: 100%;
+	height: 2.81rem;
+	overflow: hidden;
+}
+.recommend_goods_inner{
+	width: 20rem;
+	height: 2.81rem;
+	/*background: #72bcfe;*/
+}
+.recommend_goods_inner li{
+	float: left;
+	width: 2.02rem;
+	height: 2.81rem;
+}
+.rg_inner1 img{
+	width: 1.91rem;
+	height: 1.42rem;
+	margin-top: 0.2rem;
+	float: left;
+}
+.rg_inner1 span{
+	color: #000;
+	font-size: 0.24rem;
+	font-weight: 500;
+	float: left;
+	margin-top: 0.15rem;
+}
+.dianzan{
+	width: 100%;
+	float: left;
+}
+.dianzan i{
+	font-family: iconfont;
+	font-size: 0.24rem;
+	color: #ccc;
+	float: left;
+	margin-top: 0.15rem;
+
+}
+.dianzan span{
+	font-size: 0.24rem;
+	color: #ccc;
+	float: left;
+	margin-left: 0.15rem;
+}
+.recommend_goods_list {
+	width: 6.87rem;
+	height: 1.48rem;
+	border-bottom: 1px solid #ccc;
+	overflow: hidden;
+}
+.recommend_goods_list span{
+	color: #333;
+	font-size: 0.36rem;
+	font-weight: 500;
+	float: left;
+	margin: 0.1rem;
+}
+/*推荐菜结束*/
+/*大众点评网友评分开始*/
+.dazhong_score{
+    width: 100%;
+    height: 0.94rem;
+    float: left;
+}
+.dazhong_score1{
+    width: 6.87rem;
+    height: 0.94rem;
+    margin: 0 auto;
+}
+.dazhong_score_left{
+    float: left;
+    font-size: 0.32rem;
+    line-height: 0.94rem;
+    margin-left: 0.15rem;
+}
+.score_logo{
+    font-family: iconfont;
+    background: orange;
+    color: #fff;
+}
+.dazhong_score_right{
+    line-height: 0.94rem;
+    float: right;
+    color: #ccc;
+    font-size: 0.24rem;
+    margin-right: 0.15rem;
+}
+
+
+
+
+
+/*大众点评网友评分结束*/
